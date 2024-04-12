@@ -2,9 +2,12 @@ import Navigation from './Navigation';
 
 function Header() {
   return (
-    <div className="header">
-      <Navigation />
-    </div>
+    <header className="header">
+      <div className='container'>
+        <p>ASHLEIGH PFANDER</p>
+        <Navigation />
+      </div>
+    </header>
   );
 }
 

@@ -17,9 +17,9 @@ function Navigation() {
         </Link>
       </li>
       <li className="nav-item">
-        <Link to="/About"
+        <Link to="/AboutMe"
           // Check to see if the currentPage is `About`, and if so we use the active link class. Otherwise, we set it to a regular link class.
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}>
+          className={currentPage === '/AboutMe' ? 'nav-link active' : 'nav-link'}>
           About Me
         </Link>
       </li>

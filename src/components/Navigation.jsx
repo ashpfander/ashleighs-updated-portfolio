@@ -7,7 +7,7 @@ function Navigation() {
 
   // Returns the HTML coding for the navigation links
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav gabarito-regular fs-5">
       <li className="nav-item">
         <Link to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"

@@ -6,6 +6,19 @@ header {
   background-color: #80804d;
 }
 
+footer {
+  background-color: #80804d;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.background-image {
+  background-image: url('./assets/pfander-family.jpg');
+  background-size: cover;
+  width: 100%;
+}
+
 .gabarito-regular {
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;

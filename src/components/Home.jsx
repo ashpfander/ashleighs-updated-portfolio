@@ -1,8 +1,8 @@
 function Home() {
   return (
-    <div className="">
-      
-    </div>
+    <figure>
+      {/* <div className="vh-100 vw-100 background-image"></div> */}
+    </figure>
   );
 }
 

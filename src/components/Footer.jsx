@@ -9,6 +9,12 @@ function Footer() {
             <li className="nav-item">
               <a className="nav-link" href="https://www.linkedin.com/in/ashleigh-pfander/">LinkedIn</a>
             </li>
+            <li className="footer-item">
+              <p>ashmpfander@gmail.com</p>
+            </li>
+            <li className="footer-item">
+              <p>937.684.1677</p>
+            </li>
           </ul>
         </div>
       </footer>

@@ -82,3 +82,8 @@ footer {
 .nav > .nav-item > .active {
   color: #e6e6b3;
 }
+
+.profile-pic {
+  width: 25%;
+  border-radius: 50%;
+}

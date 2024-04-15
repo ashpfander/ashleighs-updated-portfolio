@@ -7,6 +7,11 @@
   --olive: #80804d;
 }
 
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
 header {
   background-color: var(--olive);
 }
@@ -28,7 +33,7 @@ footer {
 /* Overriding Bootstrap's grid from the full background image */
 .custom-container {
   width: 100vw;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 180px);
   overflow: hidden;
   position: relative;
   left: 50%;
@@ -86,4 +91,9 @@ footer {
 .profile-pic {
   width: 25%;
   border-radius: 50%;
+}
+
+.resume {
+  border-style: solid;
+  width: 100vw;
 }

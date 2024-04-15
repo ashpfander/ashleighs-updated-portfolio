@@ -1,6 +1,6 @@
 function Contact() {
   return (
-  <form className="contact-form mt-4">
+  <form className="olive-text mt-5">
     <h2 className="text-center kalam-bold pb-3">Leave me a message!</h2>
     <div className="form-floating mb-3">
       <input type="text" class="form-control" id="floatingInput" placeholder="name" />

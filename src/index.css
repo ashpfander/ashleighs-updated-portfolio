@@ -41,11 +41,7 @@ footer {
   height: 100%;
 }
 
-.contact-form {
-  padding: 2rem;
-}
-
-.contact-form h2 {
+.olive-text {
   color: var(--olive);
 }
 

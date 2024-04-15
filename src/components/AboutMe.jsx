@@ -5,7 +5,7 @@ function AboutMe() {
         <div className="gabarito-regular d-flex pt-5">
           <img className="profile-pic me-4" src={ashleighPhoto} alt="Photo of Ashleigh"></img>
           <div>
-            <h2 className="kalam-bold">Hi! I'm Ashleigh.</h2>
+            <h2 className="kalam-bold olive-text">Hi! I'm Ashleigh.</h2>
             <p>I am in a bootcamp course to learn Full Stack Web Development.</p>
             <p>I currently work as a Graphic Designer at a screen printing shop. I originally acquired a Bachelor's Degree in Advertising & Graphic Design at CCAD.
             After spending 6 years at my company doing various graphic design work, I've come to the realization that this doesn't interest me anymore.

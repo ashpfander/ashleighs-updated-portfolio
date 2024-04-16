@@ -44,23 +44,23 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Deployed Application Link
-[React Portfolio Deployed Application]()
+[React Portfolio Deployed Application](https://ashleigh-pfander-portfolio.netlify.app/)
 
 ## Screenshots of Application
 Home page
-![Home Page]()
+![Home Page](/src/assets/Homepage.png)
 About Me page
-![About Me Page]()
+![About Me Page](/src/assets/About-me.png)
 Portfolio page
-![Portfolio Page]()
+![Portfolio Page](/src/assets/Portfolio.png)
 Contact page
-![Contact Page]()
+![Contact Page](/src/assets/Contact.png)
 Resume page
-![Resume Page]()
+![Resume Page](/src/assets/Resume.png)
 Responsive navigation bar
-![Responsive Navigation Bar]()
+![Responsive Navigation Bar](/src/assets/Responsive-menu.png)
 Navigation bar open
-![Navigation Bar Open]()
+![Navigation Bar Open](/src/assets/Responsive-menu-open.png)
 
 ## Table of Contents
 

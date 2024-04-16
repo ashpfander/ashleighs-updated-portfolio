@@ -103,7 +103,7 @@ function Contact() {
           <p className="pt-3 olive-text">{errorMessage}</p>
         </div>
       )}
-      <button type="submit" className="p-3 mt-3 gabarito-regular">Submit</button>
+      <button type="submit" className="col-lg-1 col-12 p-3 mt-3 gabarito-regular">Submit</button>
     </form>
   );
   }

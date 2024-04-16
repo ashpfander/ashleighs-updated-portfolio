@@ -63,7 +63,6 @@ footer {
   position: absolute;
   text-align: center;
   background-color: rgba(128, 128, 77, 0.7);
-  width: 35%;
   color: white;
   top: 45%;
   left: 50%;
@@ -108,8 +107,7 @@ footer {
 }
 
 .profile-pic {
-  width: 25%;
-  height: 100%;
+  width: 100%;
   border-radius: 50%;
 }
 

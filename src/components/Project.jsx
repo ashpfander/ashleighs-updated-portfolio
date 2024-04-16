@@ -3,7 +3,7 @@ function Project(props) {
     <div className="container-fluid text-center pt-5 footer-padding">
       <div className="row">
         {props.projects.map((project) => (
-          <div className="col-6 mb-4">
+          <div className="col-lg-6 col-md-12 mb-4">
             <div className="card">
               <img alt="Screenshot of application" className="card-img-top" src={project.image} />
               <div className="card-body">
@@ -14,8 +14,8 @@ function Project(props) {
                   <b>{project.subtitle}</b>
                 </h3>
                 <p className="gabarito-regular">{project.description}</p>
-                <a href={project.link} className=""><button className="p-3 me-3 gabarito-regular">Live App</button></a>
-                <a href={project.github} className=""><button className="p-3 gabarito-regular">GitHub Repo</button></a>
+                <a href={project.link}><button className="col-lg-4 col-12 p-3 me-3 gabarito-regular">Live App</button></a>
+                <a href={project.github}><button className="col-lg-4 col-12 p-3 mt-2 gabarito-regular">GitHub Repo</button></a>
               </div>
             </div>
           </div>

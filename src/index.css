@@ -119,3 +119,13 @@ footer {
 .footer-padding {
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .custom-container {
+    height: calc(100vh - 280px);
+  }
+
+  .footer-padding {
+    padding-bottom: 250px;
+  }
+}

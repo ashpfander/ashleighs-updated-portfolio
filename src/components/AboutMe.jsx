@@ -9,12 +9,13 @@ function AboutMe() {
           </div>
           <div className="col-lg-9 col-md-12 footer-padding">
             <h2 className="kalam-bold olive-text">Hi! I'm Ashleigh.</h2>
-            <p>I am in a bootcamp course to learn Full Stack Web Development.</p>
-            <p>I currently work as a Graphic Designer at a screen printing shop. I originally acquired a Bachelor's Degree in Advertising & Graphic Design at CCAD.
-            After spending 6 years at my company doing various graphic design work, I've come to the realization that this doesn't interest me anymore.
+            <p>I am a recent Full Stack Web Development Bootcamp graduate with an interest in Front End Developing based on my past design experience. Eventually, I would love to get into the game developing world.</p>
+            <p>I currently work as a Graphic Designer at a screen printing shop, but my time there will come to an end at the end of May.
+            I originally acquired a Bachelor's Degree in Advertising & Graphic Design at CCAD.
+            After spending roughly 6 years at my company doing various graphic design work, I've come to the realization that this doesn't interest me anymore.
             After some thought into what other career path I could take, I remembered that I originally had wanted to be a Web Developer/Designer when I was much younger.
             Not wanting to go back to another 4 year college, I discovered bootcamps and read that they are just as good as getting a degree.
-            So far, I am really enjoying the front-end development aspect, but am open to other Web Development opportunities that may arise.</p>
+            Now that I have finished my course, I'm excited and eager to get into the world of coding!</p>
             <p>In my freetime, I love spending time with my husband, son, and two puppies. I also enjoy playing video games, watching shows and movies, coming up with a million things to do to my house, and napping (when I can).</p>
           </div>
           </div>

@@ -4,9 +4,17 @@ import techBlogImage from '../assets/mvc-tech-blog.png';
 import javascriptQuizImage from '../assets/javascript-quiz.png';
 import nomadExperienceImage from '../assets/nomad-experience.png';
 import singlePagePortfolioImage from '../assets/single-page-portfolio.png';
-import noteTakerImage from '../assets/note-taker.png';
+import auraRadioImage from '../assets/aura-radio.png';
 
 const projects = [
+  {
+    title: "Aura Radio",
+    subtitle: "Group Project: MERN Stack",
+    description: "As a group, we came up with an idea for an app where a user can explore playlists based on moods. Once a user has signed up or logged in, they are given different mood cards and once clicked into, playlists are displayed.",
+    image: auraRadioImage,
+    link: "https://auraradio.onrender.com/",
+    github: "https://github.com/ashpfander/AuraRadioNew",
+  },
   {
     title: "Weather Dashboard",
     subtitle: "Server-Side API",
@@ -46,14 +54,6 @@ const projects = [
     image: singlePagePortfolioImage,
     link: "https://ashpfander.github.io/ashleighs-web-portfolio/",
     github: "https://github.com/ashpfander/ashleighs-web-portfolio",
-  },
-  {
-    title: "Note Taker",
-    subtitle: "Express.js",
-    description: "Given starter code for the front-end, the task was to build the back-end and connect them using Express.js. While building the back-end, I used Insomnia to test my routes and make sure they were working correctly.",
-    image: noteTakerImage,
-    link: "https://ash-express-note-taker-0c03496eb057.herokuapp.com/",
-    github: "https://github.com/ashpfander/express-note-taker",
   },
 ];
 

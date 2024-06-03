@@ -17,9 +17,9 @@ function Contact() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either name, email, or message
-    if (inputType === 'Name') {
+    if (inputType === 'name') {
       setName(inputValue);
-    } else if (inputType === 'Email') {
+    } else if (inputType === 'email') {
       setEmail(inputValue);
     } else {
       setMessage(inputValue);
@@ -81,7 +81,7 @@ function Contact() {
       <h2 className="olive-text text-center kalam-bold pb-3">Leave me a message!</h2>
       <div className="form-floating mb-3">
         <input value={name}
-          name="Name"
+          name="name"
           type="text"
           className="form-control"
           id="floatingInput"
@@ -92,7 +92,7 @@ function Contact() {
       </div>
       <div className="form-floating mb-3">
         <input value={email}
-          name="Email"
+          name="email"
           type="email"
           className="form-control"
           id="floatingInput"
@@ -103,7 +103,7 @@ function Contact() {
       </div>
       <div className="form-floating">
         <textarea value={message}
-          name="Message"
+          name="message"
           className="form-control"
           placeholder="Leave a message here"
           id="floatingTextarea2"

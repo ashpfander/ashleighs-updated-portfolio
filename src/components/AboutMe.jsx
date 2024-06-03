@@ -10,7 +10,7 @@ function AboutMe() {
           <div className="col-lg-9 col-md-12 footer-padding">
             <h2 className="kalam-bold olive-text">Hi! I'm Ashleigh.</h2>
             <p>I am a recent Full Stack Web Development Bootcamp graduate with an interest in Front End Developing based on my past design experience. Eventually, I would love to get into the game developing world.</p>
-            <p>I currently work as a Graphic Designer at a screen printing shop, but my time there will come to an end at the end of May.
+            <p>I recently left my job as a Graphic Designer at a screen printing shop to focus on pursuing a career in coding.
             I originally acquired a Bachelor's Degree in Advertising & Graphic Design at CCAD.
             After spending roughly 6 years at my company doing various graphic design work, I've come to the realization that this doesn't interest me anymore.
             After some thought into what other career path I could take, I remembered that I originally had wanted to be a Web Developer/Designer when I was much younger.

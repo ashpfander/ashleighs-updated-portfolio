@@ -1,5 +1,7 @@
-import { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../utils/helper';
+import emailjs from '@emailjs/browser';
+import { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } from '../utils/emailkey';
 
 function Contact() {
 
@@ -54,7 +56,19 @@ function Contact() {
       return;
     }
     
-    alert(`Thank you for your message, ${name}!`);
+    emailjs
+    .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, {
+      publicKey: PUBLIC_KEY,
+    })
+    .then(
+      () => {
+        alert(`Thank you for your message, ${name}! I will get back to you shortly.`);
+      },
+      (error) => {
+        alert(`Something went wrong. Please try again.`, error.text);
+        console.log(error.text);
+      },
+    );
 
     // If successful, the fields are cleared
     setName('');
@@ -69,34 +83,34 @@ function Contact() {
         <input value={name}
           name="Name"
           type="text"
-          class="form-control"
+          className="form-control"
           id="floatingInput"
           placeholder="Name"
           onChange={handleInputChange}
           onBlur={handleEmptyField} />
-        <label for="floatingInput">Name</label>
+        <label htmlFor="floatingInput">Name</label>
       </div>
       <div className="form-floating mb-3">
         <input value={email}
           name="Email"
           type="email"
-          class="form-control"
+          className="form-control"
           id="floatingInput"
           placeholder="name@example.com"
           onChange={handleInputChange}
           onBlur={handleEmptyField} />
-        <label for="floatingInput">Email</label>
+        <label htmlFor="floatingInput">Email</label>
       </div>
-      <div class="form-floating">
+      <div className="form-floating">
         <textarea value={message}
           name="Message"
-          class="form-control"
+          className="form-control"
           placeholder="Leave a message here"
           id="floatingTextarea2"
           style={{height: '125px'}}
           onChange={handleInputChange}
           onBlur={handleEmptyField}></textarea>
-        <label for="floatingTextarea2">Message</label>
+        <label htmlFor="floatingTextarea2">Message</label>
       </div>
       {errorMessage && (
         <div>

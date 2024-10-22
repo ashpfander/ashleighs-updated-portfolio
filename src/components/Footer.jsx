@@ -1,6 +1,6 @@
 function Footer() {
     return (
-      <footer className="p-3">
+      <footer className="p-2">
         <div className="container-fluid d-flex justify-content-center">
           <ul className="nav gabarito-regular fs-5 row text-center">
             <li className="nav-item col-12 col-md">

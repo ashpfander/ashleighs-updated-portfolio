@@ -24,7 +24,8 @@ button:hover {
 }
 
 header {
-  background-color: var(--olive);
+  position: relative;
+  z-index: 2;
 }
 
 hr {
@@ -56,11 +57,12 @@ footer {
 /* Overriding Bootstrap's grid from the full background image */
 .custom-container {
   width: 100vw;
-  height: calc(100vh - 180px);
+  height: 100vh;
   overflow: hidden;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: -90px;
 }
 
 .floating-box {

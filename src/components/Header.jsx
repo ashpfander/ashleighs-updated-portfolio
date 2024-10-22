@@ -3,7 +3,7 @@ import "bootstrap/js/src/offcanvas.js";
 
 function Header() {
   return (
-  <header className="p-3">
+  <header className="p-1 ps-3">
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid d-flex align-items-center">
         <h1 className="title gotu-regular pt-2">

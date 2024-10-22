@@ -9,7 +9,7 @@ function Home() {
           <p className="gabarito-regular typewriter-effect">I am a(n)&nbsp;
             <Typewriter
               options={{
-                strings: ['mom', 'Graphic Designer', 'Illustrator', 'Full-Stack Developer'],
+                strings: ['Mom', 'Graphic Designer', 'Illustrator', 'Full-Stack Developer'],
                 autoStart: true,
                 loop: true,
               }}

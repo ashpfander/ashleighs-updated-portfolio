@@ -44,7 +44,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Deployed Application Link
-[React Portfolio Deployed Application](https://ashleigh-pfander-portfolio.netlify.app/)
+[React Portfolio Deployed Application](https://ashleighpfander.netlify.app/)
 
 ## Screenshots of Application
 Home page

@@ -122,6 +122,12 @@ footer {
   padding-bottom: 100px;
 }
 
+.typewriter-effect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 767px) {
   .custom-container {
     height: calc(100vh - 280px);

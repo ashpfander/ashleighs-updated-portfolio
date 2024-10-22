@@ -7,7 +7,7 @@ function Project(props) {
             <div className="card">
               <img alt="Screenshot of application" className="card-img-top" src={project.image} />
               <div className="card-body">
-                <h2 className="kalam-bold olive-text">
+                <h2 className="gotu-regular olive-text">
                   {project.title}
                 </h2>
                 <h3 className="gabarito-regular">

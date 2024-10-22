@@ -8,7 +8,7 @@ function AboutMe() {
           <img className="profile-pic me-4 mb-4" src={ashleighPhoto} alt="Photo of Ashleigh"></img>
           </div>
           <div className="col-lg-9 col-md-12 footer-padding">
-            <h2 className="kalam-bold olive-text">Hi! I'm Ashleigh.</h2>
+            <h2 className="gotu-regular olive-text">Hi! I'm Ashleigh.</h2>
             <p>I am a recent Full Stack Web Development Bootcamp graduate with an interest in Front End Developing based on my past design experience. Eventually, I would love to get into the game developing world.</p>
             <p>I recently left my job as a Graphic Designer at a screen printing shop to focus on pursuing a career in coding.
             I originally acquired a Bachelor's Degree in Advertising & Graphic Design at CCAD.

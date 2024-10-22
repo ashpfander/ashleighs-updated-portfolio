@@ -78,7 +78,7 @@ function Contact() {
 
   return (
     <form className="mt-5" onSubmit={handleFormSubmit} noValidate>
-      <h2 className="olive-text text-center kalam-bold pb-3">Leave me a message!</h2>
+      <h2 className="olive-text text-center gotu-regular pb-3">Leave me a message!</h2>
       <div className="form-floating mb-3">
         <input value={name}
           name="name"

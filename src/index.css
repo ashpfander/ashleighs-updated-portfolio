@@ -88,15 +88,9 @@ footer {
   font-size: large;
 }
 
-.kalam-regular {
-  font-family: "Kalam", cursive;
+.gotu-regular {
+  font-family: "Gotu", serif;
   font-weight: 400;
-  font-style: normal;
-}
-
-.kalam-bold {
-  font-family: "Kalam", cursive;
-  font-weight: 700;
   font-style: normal;
 }
 

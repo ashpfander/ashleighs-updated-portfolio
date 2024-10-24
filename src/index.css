@@ -24,7 +24,9 @@ button:hover {
 }
 
 header {
-  background-color: var(--olive);
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid var(--olive);
 }
 
 hr {
@@ -38,11 +40,16 @@ footer {
   bottom: 0;
 }
 
+footer .nav-link {
+  color: white;
+}
+
 .background-image {
   background-image: url('./assets/pfander-family.jpg');
   background-size: cover;
   background-position: center 30%;
   height: 100%;
+  opacity: .8;
 }
 
 .olive-text {
@@ -56,17 +63,19 @@ footer {
 /* Overriding Bootstrap's grid from the full background image */
 .custom-container {
   width: 100vw;
-  height: calc(100vh - 180px);
+  height: 100vh;
   overflow: hidden;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: -90px;
+  background-color: black;
 }
 
 .floating-box {
   position: absolute;
   text-align: center;
-  background-color: rgba(128, 128, 77, 0.7);
+  background-color: rgba(128, 128, 77, 0.65);
   color: white;
   top: 45%;
   left: 50%;
@@ -88,26 +97,25 @@ footer {
   font-size: large;
 }
 
-.kalam-regular {
-  font-family: "Kalam", cursive;
+.gotu-regular {
+  font-family: "Gotu", serif;
   font-weight: 400;
-  font-style: normal;
-}
-
-.kalam-bold {
-  font-family: "Kalam", cursive;
-  font-weight: 700;
   font-style: normal;
 }
 
 .nav-link,
 .title {
+  color: var(--olive);
+}
+
+.nav-link-home,
+.title-home {
   color: white;
 }
 
 .nav-link:hover,
 .nav > .nav-item > .active {
-  color: #e6e6b3;
+  color: #dada98;
 }
 
 .offcanvas {
@@ -126,6 +134,12 @@ footer {
 
 .footer-padding {
   padding-bottom: 100px;
+}
+
+.typewriter-effect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {

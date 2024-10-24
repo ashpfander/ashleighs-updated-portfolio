@@ -42,7 +42,7 @@ function Home() {
       <div className="background-image">
         <div className="floating-box pt-4 ps-4 pe-4 pb-3">
           <h2 className="gotu-regular"><b>Hello!</b> My name is <b>Ashleigh Pfander</b>.</h2>
-          <p className="gabarito-regular typewriter-effect">I am a(n)&nbsp;
+          <h4 className="gotu-regular typewriter-effect">
             <Typewriter
               options={{
                 strings: ['Mom', 'Graphic Designer', 'Illustrator', 'Full-Stack Developer'],
@@ -50,7 +50,7 @@ function Home() {
                 loop: true,
               }}
             />
-          </p>
+          </h4>
         </div>
       </div>
     </div>

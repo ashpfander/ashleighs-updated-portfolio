@@ -57,7 +57,7 @@ const projects = [
   },
 ];
 
-function Portfolio() {
+function WebApps() {
   return (
     <div className="">
       <Project projects={projects} />
@@ -65,4 +65,4 @@ function Portfolio() {
   );
 }
   
-export default Portfolio;
+export default WebApps;

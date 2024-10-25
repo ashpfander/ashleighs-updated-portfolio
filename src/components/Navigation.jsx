@@ -24,17 +24,10 @@ function Navigation() {
         </Link>
       </li>
       <li className="nav-item pe-1" data-bs-dismiss="offcanvas">
-        <Link to="/WebApps"
+        <Link to="/Portfolio"
           // Check to see if the currentPage is `Portfolio`, and if so we use the active link class. Otherwise, we set it to a regular link class.
-          className={currentPage === '/WebApps' ? 'nav-link active' : 'nav-link'}>
-          Web Apps
-        </Link>
-      </li>
-      <li className="nav-item pe-1" data-bs-dismiss="offcanvas">
-        <Link to="/Designs"
-          // Check to see if the currentPage is `Portfolio`, and if so we use the active link class. Otherwise, we set it to a regular link class.
-          className={currentPage === '/Designs' ? 'nav-link active' : 'nav-link'}>
-          Designs
+          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
+          Portfolio
         </Link>
       </li>
       <li className="nav-item pe-1" data-bs-dismiss="offcanvas">

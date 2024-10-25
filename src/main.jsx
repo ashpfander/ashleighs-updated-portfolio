@@ -7,8 +7,7 @@ import App from './App.jsx';
 import Error from './components/Error.jsx';
 import Home from './components/Home.jsx';
 import AboutMe from './components/AboutMe.jsx';
-import WebApps from './components/WebApps.jsx';
-import Designs from './components/Designs.jsx';
+import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx';
 import Resume from './components/Resume.jsx';
 
@@ -28,12 +27,8 @@ const router = createBrowserRouter([
         element: <AboutMe />,
       },
       {
-        path: '/WebApps',
-        element: <WebApps />,
-      },
-      {
-        path: '/Designs',
-        element: <Designs />
+        path: '/Portfolio',
+        element: <Portfolio />,
       },
       {
         path: '/Contact',

@@ -5,6 +5,7 @@ import javascriptQuizImage from '../assets/javascript-quiz.png';
 import nomadExperienceImage from '../assets/nomad-experience.png';
 import singlePagePortfolioImage from '../assets/single-page-portfolio.png';
 import auraRadioImage from '../assets/aura-radio.png';
+import { Tab, Nav } from 'react-bootstrap';
 
 const projects = [
   {
@@ -57,12 +58,27 @@ const projects = [
   },
 ];
 
-function WebApps() {
+function Portfolio() {
   return (
-    <div className="">
-      <Project projects={projects} />
-    </div>
+    <Tab.Container defaultActiveKey="webapps">
+      <Nav variant="pills" className="justify-content-center pt-5">
+        <Nav.Item>
+          <Nav.Link eventKey="webapps">Web Apps</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="designs">Designs</Nav.Link>
+        </Nav.Item>
+      </Nav>
+      <Tab.Content>
+        <Tab.Pane eventKey="webapps">
+          <Project projects={projects} />
+        </Tab.Pane>
+        <Tab.Pane eventKey="designs">
+          Placeholder
+        </Tab.Pane>
+      </Tab.Content>
+    </Tab.Container>
   );
 }
   
-export default WebApps;
+export default Portfolio;

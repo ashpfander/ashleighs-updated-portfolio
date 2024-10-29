@@ -61,12 +61,12 @@ const projects = [
 function Portfolio() {
   return (
     <Tab.Container defaultActiveKey="webapps">
-      <Nav variant="pills" className="justify-content-center pt-5">
+      <Nav className="justify-content-center pt-5 tabs-pills">
         <Nav.Item>
-          <Nav.Link eventKey="webapps">Web Apps</Nav.Link>
+          <Nav.Link className="p-3 webapps-tab text-center" eventKey="webapps">Web Apps</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="designs">Designs</Nav.Link>
+          <Nav.Link className="p-3 designs-tab text-center" eventKey="designs">Designs</Nav.Link>
         </Nav.Item>
       </Nav>
       <Tab.Content>

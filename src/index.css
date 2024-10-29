@@ -142,6 +142,38 @@ footer .nav-link {
   justify-content: center;
 }
 
+.tabs-pills .webapps-tab {
+  border: 1px solid var(--olive);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 110px;
+  color: var(--olive);
+}
+
+.tabs-pills .webapps-tab:hover,
+.tabs-pills .webapps-tab.active {
+  background-color: var(--olive);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: white;
+}
+
+.tabs-pills .designs-tab {
+  border: 1px solid var(--olive);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 110px;
+  color: var(--olive);
+}
+
+.tabs-pills .designs-tab:hover,
+.tabs-pills .designs-tab.active {
+  background-color: var(--olive);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+}
+
 @media screen and (max-width: 767px) {
   .custom-container {
     height: calc(100vh - 280px);

@@ -57,7 +57,8 @@ footer .nav-link {
 }
 
 .card {
-  border: solid 2px silver;
+  /* border: solid 2px silver; */
+  border: none;
 }
 
 /* Overriding Bootstrap's grid from the full background image */
@@ -172,6 +173,37 @@ footer .nav-link {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   color: white;
+}
+
+.card {
+  position: relative;
+}
+
+.card-bkg {
+  background-color: black;
+}
+
+.img-hover {
+  width: 100%;
+}
+
+.card:hover .img-hover {
+  opacity: 0.55;
+}
+
+.project-title {
+  visibility: hidden;
+  color: white;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card:hover .project-title {
+  visibility: visible;
 }
 
 @media screen and (max-width: 767px) {

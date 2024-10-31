@@ -4,9 +4,10 @@ function WebApps(props) {
       <div className="row">
         {props.projects.map((project) => (
           <div className="col-lg-6 col-md-12 mb-4">
-            <div className="card">
-              <img alt="Screenshot of application" className="card-img-top" src={project.image} />
-              <div className="card-body">
+            <div className="card card-bkg">
+              <img alt={`Screenshot of ${project.title}`} className="img-hover" src={project.image} />
+              <h2 className="gotu-regular project-title">{project.title}</h2>
+              {/* <div className="card-body">
                 <h2 className="gotu-regular olive-text">
                   {project.title}
                 </h2>
@@ -16,7 +17,7 @@ function WebApps(props) {
                 <p className="gabarito-regular">{project.description}</p>
                 <a href={project.link}><button className="col-lg-4 col-12 p-3 me-3 gabarito-regular">Live App</button></a>
                 <a href={project.github}><button className="col-lg-4 col-12 p-3 mt-2 gabarito-regular">GitHub Repo</button></a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

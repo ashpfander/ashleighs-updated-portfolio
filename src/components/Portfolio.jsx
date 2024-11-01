@@ -1,5 +1,6 @@
 import WebApps from './WebApps';
 import Designs from './Designs';
+
 import weatherImage from '../assets/weather-dashboard.png';
 import techBlogImage from '../assets/mvc-tech-blog.png';
 import javascriptQuizImage from '../assets/javascript-quiz.png';
@@ -16,6 +17,17 @@ import tinyTonicTees from '../assets/designs/TinyTonicTees.png';
 import bubbleTonicStudios from '../assets/designs/BubbleTonicLogo.jpg';
 import unusedPumpkinsAglow from '../assets/designs/PumpkinsAglowFinal.jpg';
 import tonicLogoAnimationStill from '../assets/designs/TonicLogoAnimation.jpg';
+import columbusHumaneSketch from '../assets/designs/ColumbusHumaneSketch.jpg';
+import pumpkinsAglow2 from '../assets/designs/FPC-PumpkinsAglowCloseup.jpg';
+import allHallowsEve2 from '../assets/designs/OhioHistoryAllHallowsEve.jpg';
+import ohioWildflowers2 from '../assets/designs/OhioWildflowersCloseup1.png';
+import ohioWildflowers3 from '../assets/designs/OhioWildflowersCloseup2.png';
+import pumpkinsAglow3 from '../assets/designs/PumpkinsAglowFinalSketch.jpg';
+import tonicLogoAnimation from '../assets/designs/TonicLogoAnimation.gif';
+import tulaTaqueria2 from '../assets/designs/TulaClayTee.jpg';
+import tulaTaqueria3 from '../assets/designs/TulaGreenTee.jpg';
+import tinyTonicTees2 from '../assets/designs/ApparelTypes.jpg';
+
 import { Tab, Nav } from 'react-bootstrap';
 
 const projects = [
@@ -74,7 +86,8 @@ const designs = [
     title: "All Hallows' Eve",
     subtitle: "Custom Tee Design",
     description: "While working at Tonic Studios, I had the pleasure of coming up with Ohio History Connection's 2022 All Hallows' Eve tee design. Utilizing inspiration photos they sent and descriptions of the event, I was able to come up with this vintage style illustration. Drawn in Procreate and finishing touches in Adobe Illustrator.",
-    image: allHallowsEve
+    image: allHallowsEve,
+    image2: allHallowsEve2
   },
   {
     title: "Rubino's Pizza 70th Anniversary",
@@ -86,13 +99,17 @@ const designs = [
     title: "Pumpkins Aglow",
     subtitle: "Custom Tee Design",
     description: "This design was with the same All Hallows' Eve client, just with a new company, Franklin Park Conservatory, and wanted a fun tee design for their 2023 Pumpkins Aglow event. They wanted to include some of their more popular attractions; singing pumpkins and a skeleton band while staying within their branding guidelines. Drawn in Procreate and finishing touches in Adobe Illustrator.",
-    image: pumpkinsAglow
+    image: pumpkinsAglow,
+    image2: pumpkinsAglow2,
+    image3: pumpkinsAglow3
   },
   {
     title: "Tula Taqueria",
     subtitle: "Custom Tee Design",
     description: "One of my most memorable projects at Tonic Studios would have to be this design for Tula Taqueria. Working alongside another designer, we created this design from a concept of mirrored taco ingredients based on mexican floral designs. We also included some popular mexican flowers to mimic some mexican headdresses within the taco. The client loved it so much, they made it their branding! Designed and created in Adobe Illustrator.",
-    image: tulaTaqueria
+    image: tulaTaqueria,
+    image2: tulaTaqueria2,
+    image3: tulaTaqueria3
   },
   {
     title: "Motomentum",
@@ -104,13 +121,16 @@ const designs = [
     title: "Ohio Wildflowers",
     subtitle: "Custom Tee Design",
     description: "Tonic Studios has some custom tee designs that they sell periodically. For this particular design, another designer had a vision and I helped them implement it. Using some of Ohio's wildflowers, I was able to illustrate and layout the flowers to create depth within 'Ohio'. Designed and created in Adobe Illustrator.",
-    image: ohioWildflowers
+    image: ohioWildflowers,
+    image2: ohioWildflowers2,
+    image3: ohioWildflowers3
   },
   {
     title: "Tiny Tonic Tees",
     subtitle: "Handlettering",
     description: "This was a fun side project to promote some of Tonic Studios' services and products. I handlettered the back print of these Tiny Tonic Tees the old-fashioned way: pen and paper. Brought in Adobe Illustrator to help clean up.",
-    image: tinyTonicTees
+    image: tinyTonicTees,
+    image2: tinyTonicTees2
   },
   {
     title: "Bubble Tonic Studios",
@@ -122,19 +142,21 @@ const designs = [
     title: "Unused Sketches",
     subtitle: "Illustrations",
     description: "These were either an unused sketch idea or an unused, fleshed out design. Sometimes you're just excited about a sketch or design that just unfortunately wasn't able to be used. Drawn in Procreate.",
-    image: unusedPumpkinsAglow
+    image: unusedPumpkinsAglow,
+    image2: columbusHumaneSketch
   },
   {
     title: "Tonic Studios Logo Animation",
     subtitle: "Hand drawn animation",
     description: "I like to dabble in the world of animation every now and then and I thought I'd practice by doing a custom animation for the Tonic Studios logo. Hand drawn, frame-by-frame, I created a drip-by-drip reveal of the Tonic logo. Created in Procreate.",
-    image: tonicLogoAnimationStill
+    image: tonicLogoAnimationStill,
+    image2: tonicLogoAnimation
   },
 ];
 
 function Portfolio() {
   return (
-    <Tab.Container defaultActiveKey="designs">
+    <Tab.Container defaultActiveKey="webapps">
       <Nav className="justify-content-center pt-5 tabs-pills">
         <Nav.Item>
           <Nav.Link className="p-3 webapps-tab text-center" eventKey="webapps">Web Apps</Nav.Link>

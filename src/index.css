@@ -98,6 +98,10 @@ footer .nav-link {
   font-size: large;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .gotu-regular {
   font-family: "Gotu", serif;
   font-weight: 400;

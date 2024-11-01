@@ -1,10 +1,18 @@
 function WebApps(props) {
   const modalOpen = (project) => {
     const modalTitle = document.getElementById('projectModalLabel');
-    const modalBody = document.querySelector('.modal-body p');
+    const modalBodyImage = document.querySelector('.modal-body img');
+    const modalBodySubTitle = document.querySelector('.modal-body h3');
+    const modalBodyDescription = document.querySelector('.modal-body p');
+    const liveAppButton = document.getElementById('liveAppButton');
+    const githubButton = document.getElementById('githubButton');
   
     modalTitle.textContent = project.title;
-    modalBody.textContent = 'To be updated';
+    modalBodyImage.src = project.image;
+    modalBodySubTitle.textContent = project.subtitle;
+    modalBodyDescription.textContent = project.description;
+    liveAppButton.href = project.link;
+    githubButton.href = project.github;
   };
 
   return (
@@ -19,17 +27,6 @@ function WebApps(props) {
                 src={project.image}
               />
               <h2 className="gotu-regular project-title">{project.title}</h2>
-              {/* <div className="card-body">
-                <h2 className="gotu-regular olive-text">
-                  {project.title}
-                </h2>
-                <h3 className="gabarito-regular">
-                  <b>{project.subtitle}</b>
-                </h3>
-                <p className="gabarito-regular">{project.description}</p>
-                <a href={project.link}><button className="col-lg-4 col-12 p-3 me-3 gabarito-regular">Live App</button></a>
-                <a href={project.github}><button className="col-lg-4 col-12 p-3 mt-2 gabarito-regular">GitHub Repo</button></a>
-              </div> */}
             </div>
           </div>
         ))}
@@ -37,18 +34,20 @@ function WebApps(props) {
 
       {/* Modal information */}
       <div className="modal" id="project-modal" tabIndex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
-        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="projectModalLabel">Modal title</h5>
+              <h2 className="modal-title gotu-regular olive-text" id="projectModalLabel"></h2>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              <p></p>
+              <img alt="Screenshot of application" className="img-fluid pb-3" />
+              <h3 className="gabarito-regular bold"></h3>
+              <p className="gabarito-regular"></p>
             </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" className="btn btn-primary">Save changes</button>
+            <div className="modal-footer justify-content-center">
+              <a id="liveAppButton" target="_blank"><button className="col-12 p-3 me-3 gabarito-regular">Live App</button></a>
+              <a id="githubButton" target="_blank"><button className="col-12 p-3 gabarito-regular">GitHub Repo</button></a>
             </div>
           </div>
         </div>

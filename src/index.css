@@ -57,7 +57,6 @@ footer .nav-link {
 }
 
 .card {
-  /* border: solid 2px silver; */
   border: none;
 }
 
@@ -151,7 +150,6 @@ footer .nav-link {
   border: 1px solid var(--olive);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  width: 110px;
   color: var(--olive);
 }
 
@@ -167,7 +165,6 @@ footer .nav-link {
   border: 1px solid var(--olive);
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  width: 110px;
   color: var(--olive);
 }
 
@@ -212,11 +209,8 @@ footer .nav-link {
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
-  .custom-container {
-    height: calc(100vh - 280px);
-  }
-
+@media screen and (max-width: 768px) {
+  
   .footer-padding {
     padding-bottom: 250px;
   }
@@ -239,5 +233,10 @@ footer .nav-link {
 
   .nav-item {
     margin-bottom: 1rem;
+  }
+
+  .tabs-pills {
+    display: flex;
+    flex-direction: row;
   }
 }

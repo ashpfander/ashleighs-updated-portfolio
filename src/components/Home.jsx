@@ -40,7 +40,7 @@ function Home() {
   return (
     <div className="custom-container">
       <div className="background-image">
-        <div className="floating-box pt-4 ps-4 pe-4 pb-3">
+        <div className="col-lg-5 col-8 floating-box pt-4 ps-4 pe-4 pb-3">
           <h2 className="gotu-regular"><b>Hello!</b> My name is <b>Ashleigh Pfander</b>.</h2>
           <h4 className="gotu-regular typewriter-effect">
             <Typewriter

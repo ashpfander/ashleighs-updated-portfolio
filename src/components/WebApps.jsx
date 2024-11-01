@@ -45,9 +45,13 @@ function WebApps(props) {
               <h3 id="webAppSubtitle" className="gabarito-regular bold"></h3>
               <p id="webAppDescription" className="gabarito-regular"></p>
             </div>
-            <div className="modal-footer justify-content-center">
-              <a id="liveAppButton" target="_blank"><button className="col-12 p-3 me-3 gabarito-regular">Live App</button></a>
-              <a id="githubButton" target="_blank"><button className="col-12 p-3 gabarito-regular">GitHub Repo</button></a>
+            <div className="modal-footer justify-content-center d-flex">
+              <a id="liveAppButton" target="_blank" className="col-lg-2 col-md-5 col-12">
+                <button className="w-100 p-3 me-3 gabarito-regular">Live App</button>
+              </a>
+              <a id="githubButton" target="_blank" className="col-lg-2 col-md-5 col-12">
+                <button className="w-100 p-3 gabarito-regular">GitHub Repo</button>
+              </a>
             </div>
           </div>
         </div>

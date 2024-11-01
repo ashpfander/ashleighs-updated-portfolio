@@ -189,6 +189,7 @@ footer .nav-link {
 
 .card:hover .img-hover {
   opacity: 0.55;
+  cursor: pointer;
 }
 
 .project-title {
@@ -204,6 +205,7 @@ footer .nav-link {
 
 .card:hover .project-title {
   visibility: visible;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {

@@ -5,7 +5,7 @@ function Designs(props) {
         {props.designs.map((design) => (
           <div className="col-lg-6 col-md-12 mb-4">
             <div className="card">
-              <img alt="Screenshot of application" className="card-img-top" src={design.image} />
+              <img alt={`Screenshot of ${design.title}`} className="card-img-top" src={design.image} />
               <div className="card-body">
                 <h2 className="gotu-regular olive-text">
                   {design.title}

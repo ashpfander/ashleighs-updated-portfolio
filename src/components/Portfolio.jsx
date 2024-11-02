@@ -8,7 +8,7 @@ import nomadExperienceImage from '../assets/nomad-experience.png';
 import singlePagePortfolioImage from '../assets/single-page-portfolio.png';
 import auraRadioImage from '../assets/aura-radio.png';
 import allHallowsEve from '../assets/designs/AllHallowsEve.jpg';
-import rubinos70thAnniversary from '../assets/designs/rubinos70thAnniversary.jpg';
+import rubinos70thAnniversary from '../assets/designs/Rubinos70thAnniversary.jpg';
 import pumpkinsAglow from '../assets/designs/FPC-PumpkinsAglowTee.jpg';
 import tulaTaqueria from '../assets/designs/TulaTaqueria.jpg';
 import motomentumRide from '../assets/designs/MotomentumRide.png';

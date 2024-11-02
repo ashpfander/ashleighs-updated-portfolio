@@ -57,7 +57,7 @@ footer .nav-link {
 }
 
 .card {
-  border: solid 2px silver;
+  border: none;
 }
 
 /* Overriding Bootstrap's grid from the full background image */
@@ -80,6 +80,19 @@ footer .nav-link {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: fadeInAnimation ease .3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .footer-item {
@@ -97,6 +110,10 @@ footer .nav-link {
   font-size: large;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .gotu-regular {
   font-family: "Gotu", serif;
   font-weight: 400;
@@ -109,7 +126,8 @@ footer .nav-link {
 }
 
 .nav-link-home,
-.title-home {
+.title-home,
+.offcanvas-link {
   color: white;
 }
 
@@ -120,6 +138,14 @@ footer .nav-link {
 
 .offcanvas {
   background-color: var(--olive);
+}
+
+.offcanvas {
+  display: none;
+}
+
+.reg-nav {
+  display: block;
 }
 
 .profile-pic {
@@ -142,11 +168,72 @@ footer .nav-link {
   justify-content: center;
 }
 
-@media screen and (max-width: 767px) {
-  .custom-container {
-    height: calc(100vh - 280px);
-  }
+.tabs-pills .webapps-tab {
+  border: 1px solid var(--olive);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: var(--olive);
+}
 
+.tabs-pills .webapps-tab:hover,
+.tabs-pills .webapps-tab.active {
+  background-color: var(--olive);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: white;
+}
+
+.tabs-pills .designs-tab {
+  border: 1px solid var(--olive);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: var(--olive);
+}
+
+.tabs-pills .designs-tab:hover,
+.tabs-pills .designs-tab.active {
+  background-color: var(--olive);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+}
+
+.card {
+  position: relative;
+}
+
+.card-bkg {
+  background-color: black;
+}
+
+.img-hover {
+  width: 100%;
+  transition: .3s ease-in-out;
+}
+
+.card:hover .img-hover {
+  opacity: 0.55;
+  cursor: pointer;
+}
+
+.project-title {
+  visibility: hidden;
+  color: white;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card:hover .project-title {
+  visibility: visible;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  
   .footer-padding {
     padding-bottom: 250px;
   }
@@ -162,6 +249,10 @@ footer .nav-link {
     display: block;
   }
 
+  .custom-container {
+    height: calc(100vh - 150px);
+  }
+
   .nav {
     display: flex;
     flex-direction: column;
@@ -169,5 +260,18 @@ footer .nav-link {
 
   .nav-item {
     margin-bottom: 1rem;
+  }
+
+  .tabs-pills {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .offcanvas {
+    display: block;
+  }
+
+  .reg-nav {
+    display: none;
   }
 }

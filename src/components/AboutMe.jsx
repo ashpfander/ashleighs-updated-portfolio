@@ -12,7 +12,6 @@ function AboutMe() {
             <p>I am a Graphic Designer, Illustrator, and most recently added Full-Stack Developer to my plate.
             I mainly focus on typography, handlettering, cartoon/vintage style illustrations, and love doing Front-End Development. </p>
             <p>I left my job as a Graphic Designer at a screen printing shop in May 2024 to focus on pursuing a career in coding.
-            I originally acquired a Bachelor's Degree in Advertising & Graphic Design at CCAD.
             After spending roughly 6 years at my company doing various graphic design work, I wanted a change.
             After some thought into what other career path I could take, I remembered that I originally had wanted to be a Web Developer/Designer when I was much younger.
             Not wanting to go back to another 4 year college, I discovered bootcamps and read that they are just as good as getting a degree.

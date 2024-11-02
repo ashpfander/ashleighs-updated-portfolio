@@ -9,6 +9,7 @@ function Home() {
   useEffect(() => {
     const links = document.querySelectorAll('.nav-link');
     const title = document.querySelector('.title');
+    const offcanvasButton = document.querySelector('.navbar');
     // Sets the header text color based on path
     const getHeaderColor = () => {
       if (location.pathname === '/') {
@@ -17,23 +18,30 @@ function Home() {
           link.classList.add('nav-link-home')
         });
         document.querySelector('header').style.borderBottom = 'none';
+        offcanvasButton.classList.remove('navbar-light');
+        offcanvasButton.classList.add('navbar-dark');
       } else {
         title.classList.remove('title-home'); // Removes this class on other pages
         links.forEach(link => {
           link.classList.remove('nav-link-home')
         });
         document.querySelector('header').style.borderBottom = '1px solid #80804d';
+        offcanvasButton.classList.remove('navbar-dark');
+        offcanvasButton.classList.add('navbar-light');
       }
     };
 
     getHeaderColor();
 
     return () => {
-      title.classList.remove('title-home'); // Reset class when component unmounts
+      // Reset classes when component unmounts
+      title.classList.remove('title-home');
       links.forEach(link => {
         link.classList.remove('nav-link-home');
       });
       document.querySelector('header').style.borderBottom = '';
+      offcanvasButton.classList.remove('navbar-light');
+      offcanvasButton.classList.remove('navbar-dark');
     };
   }, [location]);
 

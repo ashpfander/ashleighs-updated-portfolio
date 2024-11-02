@@ -113,7 +113,8 @@ footer .nav-link {
 }
 
 .nav-link-home,
-.title-home {
+.title-home,
+.offcanvas-link {
   color: white;
 }
 
@@ -124,6 +125,14 @@ footer .nav-link {
 
 .offcanvas {
   background-color: var(--olive);
+}
+
+.offcanvas {
+  display: none;
+}
+
+.reg-nav {
+  display: block;
 }
 
 .profile-pic {
@@ -226,6 +235,10 @@ footer .nav-link {
     display: block;
   }
 
+  .custom-container {
+    height: calc(100vh - 150px);
+  }
+
   .nav {
     display: flex;
     flex-direction: column;
@@ -238,5 +251,13 @@ footer .nav-link {
   .tabs-pills {
     display: flex;
     flex-direction: row;
+  }
+
+  .offcanvas {
+    display: block;
+  }
+
+  .reg-nav {
+    display: none;
   }
 }

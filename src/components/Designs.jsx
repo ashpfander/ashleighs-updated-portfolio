@@ -50,7 +50,7 @@ function Designs(props) {
       </div>
 
       {/* Modal information */}
-      <div className="modal" id="design-modal" tabIndex="-1" aria-labelledby="designModalLabel" aria-hidden="true">
+      <div className="modal fade" id="design-modal" tabIndex="-1" aria-labelledby="designModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div className="modal-content">
             <div className="modal-header">

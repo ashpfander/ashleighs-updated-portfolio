@@ -33,7 +33,7 @@ function WebApps(props) {
       </div>
 
       {/* Modal information */}
-      <div className="modal" id="project-modal" tabIndex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+      <div className="modal fade" id="project-modal" tabIndex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div className="modal-content">
             <div className="modal-header">

@@ -232,13 +232,6 @@ footer .nav-link {
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-  
-  .footer-padding {
-    padding-bottom: 250px;
-  }
-}
-
 @media screen and (max-width: 991px) {
 
   header ul li {
@@ -247,6 +240,10 @@ footer .nav-link {
 
   hr {
     display: block;
+  }
+
+  .footer-padding {
+    padding-bottom: 250px;
   }
 
   .custom-container {

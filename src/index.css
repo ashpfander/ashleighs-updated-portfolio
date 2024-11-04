@@ -44,6 +44,10 @@ footer .nav-link {
   color: white;
 }
 
+form {
+  padding-bottom: 300px;
+}
+
 .background-image {
   background-image: url('./assets/pfander-family.jpg');
   background-size: cover;

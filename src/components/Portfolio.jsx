@@ -27,6 +27,7 @@ import tonicLogoAnimation from '../assets/designs/TonicLogoAnimation.gif';
 import tulaTaqueria2 from '../assets/designs/TulaClayTee.jpg';
 import tulaTaqueria3 from '../assets/designs/TulaGreenTee.jpg';
 import tinyTonicTees2 from '../assets/designs/ApparelTypes.jpg';
+import mattAndRoccos from '../assets/designs/Matt&RoccosEpicPodcast.jpg';
 
 import { Tab, Nav } from 'react-bootstrap';
 
@@ -110,6 +111,12 @@ const designs = [
     image: tulaTaqueria,
     image2: tulaTaqueria2,
     image3: tulaTaqueria3
+  },
+  {
+    title: "Matt & Rocco's Epic Podcast",
+    subtitle: "Logo Design",
+    description: "A friend requested a logo design for their new podcast; Matt & Rocco's Epic Podcast. Using some inspiration photos and information provided, I was able to create this design using some fun brushes I had and really make it POP. Background and planet drawn in Procreate and typography added in Adobe Illustrator.",
+    image: mattAndRoccos
   },
   {
     title: "Motomentum",

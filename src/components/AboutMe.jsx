@@ -16,9 +16,9 @@ function AboutMe() {
             After some thought into what other career path I could take, I remembered that I originally had wanted to be a Web Developer/Designer when I was much younger.
             Not wanting to go back to another 4 year college, I discovered bootcamps and read that they are just as good as getting a degree.
             I had some of the most fun learning how to code, but realized that I really need to practice my skills more before jumping into the career field.
-            After spending a good amount of the Summer and part of Fall not working, I also realized I missed doing design work.
-            I'm hoping I can land another awesome design job while also being able to learn more coding skills and be able to utilize them in the future.</p>
-            <p>In my freetime, I love spending time with my husband, son, and two puppies. I also enjoy playing video games, watching shows and movies, coming up with a million things to do to my house, and napping (when I can).</p>
+            After spending a good amount of the Summer and Fall not working, I also realized I missed doing design work.
+            I'm looking forward to what the future holds for me and what projects I can create, both in design and web.</p>
+            <p>In my freetime, I love spending time with my husband, son, and two dogs. I also enjoy playing video games, watching shows and movies, coming up with a million things to do to my house, and napping (when I can).</p>
           </div>
           </div>
         </div>

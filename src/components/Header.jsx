@@ -2,14 +2,16 @@ import Navigation from './Navigation';
 import OffcanvasNavigation from './OffcanvasNavigation';
 import "bootstrap/js/src/offcanvas.js";
 
-function Header() {
+function Header({ logo }) {
   return (
   <header className="p-1 ps-3">
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid d-flex align-items-center">
-        <h1 className="title gotu-regular pt-2">
-          Ashleigh Pfander
-        </h1>
+        <img
+          src={logo}
+          alt="Ashleigh Pfander"
+          className='logo'
+        />
         <button
           className="navbar-toggler shadow-none border-0"
           type="button"

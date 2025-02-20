@@ -1,19 +1,20 @@
 import Typewriter from 'typewriter-effect';
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useOutletContext } from 'react-router-dom';
+import PersonalLogoWhite from '../assets/designs/PersonalLogo-White.png';
+import PersonalLogoOlive from '../assets/designs/PersonalLogo-Olive.png';
 
 function Home() {
   const location = useLocation();
-
+  const { setLogo } = useOutletContext();
 
   useEffect(() => {
     const links = document.querySelectorAll('.nav-link');
-    const title = document.querySelector('.title');
     const offcanvasButton = document.querySelector('.navbar');
     // Sets the header text color based on path
     const getHeaderColor = () => {
       if (location.pathname === '/') {
-        title.classList.add('title-home'); // Sets this class for the home path
+        setLogo(PersonalLogoWhite);
         links.forEach(link => {
           link.classList.add('nav-link-home')
         });
@@ -21,7 +22,7 @@ function Home() {
         offcanvasButton.classList.remove('navbar-light');
         offcanvasButton.classList.add('navbar-dark');
       } else {
-        title.classList.remove('title-home'); // Removes this class on other pages
+        setLogo(PersonalLogoOlive);
         links.forEach(link => {
           link.classList.remove('nav-link-home')
         });
@@ -35,7 +36,7 @@ function Home() {
 
     return () => {
       // Reset classes when component unmounts
-      title.classList.remove('title-home');
+      setLogo(PersonalLogoOlive);
       links.forEach(link => {
         link.classList.remove('nav-link-home');
       });
@@ -43,7 +44,7 @@ function Home() {
       offcanvasButton.classList.remove('navbar-light');
       offcanvasButton.classList.remove('navbar-dark');
     };
-  }, [location]);
+  }, [location, setLogo]);
 
   return (
     <div className="custom-container">

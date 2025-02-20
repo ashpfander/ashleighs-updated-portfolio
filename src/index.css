@@ -257,6 +257,7 @@ form {
 
   .custom-container {
     height: calc(100vh - 150px);
+    margin-top: -140px;
   }
 
   .nav {
@@ -279,5 +280,10 @@ form {
 
   .reg-nav {
     display: none;
+  }
+
+  .logo {
+    width: 25%;
+    height: auto;
   }
 }

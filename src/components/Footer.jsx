@@ -20,7 +20,7 @@ function Footer() {
             </ul>
           </div>
           <div className="d-flex flex-column flex-lg-row align-items-center">
-            <ul className="nav gabarito-regular fs-5 text-center">
+            <ul className="nav gabarito-regular fs-5 text-center justify-content-center">
               <li className="footer-item">
                 <p>ashmpfander@gmail.com</p>
               </li>

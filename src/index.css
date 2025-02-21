@@ -4,7 +4,7 @@
 }
 
 :root {
-  --olive: #80804d;
+  --olive: #919f62;
 }
 
 #root {
@@ -20,7 +20,7 @@ button {
 }
 
 button:hover {
-  background-color: #666633;
+  background-color: #768250;
 }
 
 header {
@@ -72,14 +72,14 @@ form {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: -90px;
+  margin-top: -130px;
   background-color: black;
 }
 
 .floating-box {
   position: absolute;
   text-align: center;
-  background-color: rgba(128, 128, 77, 0.65);
+  background-color: rgba(145, 159, 98, 0.65);
   color: white;
   top: 45%;
   left: 50%;
@@ -142,9 +142,6 @@ form {
 
 .offcanvas {
   background-color: var(--olive);
-}
-
-.offcanvas {
   display: none;
 }
 
@@ -236,6 +233,15 @@ form {
   cursor: pointer;
 }
 
+.logo {
+  width: 13rem;
+  height: auto;
+}
+
+.footer-img {
+  width: 2.25rem;
+}
+
 @media screen and (max-width: 991px) {
 
   header ul li {
@@ -247,16 +253,17 @@ form {
   }
 
   .footer-padding {
-    padding-bottom: 250px;
+    padding-bottom: 200px;
   }
 
   .custom-container {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 140px);
+    margin-top: -100px;
   }
 
-  .nav {
-    display: flex;
-    flex-direction: column;
+  .footer-icons {
+    justify-content: center;
+    margin-top: 0.5rem;
   }
 
   .nav-item {
@@ -274,5 +281,10 @@ form {
 
   .reg-nav {
     display: none;
+  }
+
+  .logo {
+    width: 10rem;
+    height: auto;
   }
 }

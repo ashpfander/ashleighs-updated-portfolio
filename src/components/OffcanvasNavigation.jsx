@@ -7,7 +7,7 @@ function OffcanvasNavigation() {
 
   // Returns the HTML coding for the navigation links
   return (
-    <ul className="nav gabarito-regular fs-5">
+    <ul className="nav d-block gabarito-regular fs-5">
       <li className="nav-item pe-1" data-bs-dismiss="offcanvas">
         <Link to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"

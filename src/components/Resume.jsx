@@ -1,4 +1,4 @@
-import resumeFile from '../assets/AshleighPfander-Resume.png';
+import resumeFile from '../assets/AshleighPfander-Resume.jpg';
 import resumePDF from '../assets/AshleighPfander-Resume.pdf';
 
 function Resume() {
